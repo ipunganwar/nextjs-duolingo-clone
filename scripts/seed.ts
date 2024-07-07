@@ -45,6 +45,30 @@ const main = async () => {
         order: 1,
         title: "None",
       },
+      {
+        id: 2,
+        unitId: 1,
+        order: 2,
+        title: "None",
+      },
+      {
+        id: 3,
+        unitId: 1,
+        order: 3,
+        title: "None",
+      },
+      {
+        id: 4,
+        unitId: 1,
+        order: 4,
+        title: "None",
+      },
+      {
+        id: 5,
+        unitId: 1,
+        order: 5,
+        title: "None",
+      },
     ]);
 
     await db.insert(schema.challenges).values([
