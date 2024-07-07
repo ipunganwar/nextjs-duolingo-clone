@@ -45,7 +45,7 @@ export const LessonButton = ({
   const isCompleted = !current && !locked;
 
   const Icon = isCompleted ? Check : isLast ? Crown : Star;
-  const href = isCompleted ? `/lessons/${id}` : "/lessons";
+  const href = isCompleted ? `/lesson/${id}` : "/lesson";
 
   return (
     <Link
